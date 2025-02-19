@@ -1,0 +1,134 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eaeaea;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    width: 70%;
+    margin: 40px auto;
+    background: white;
+    padding: 30px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.left-column {
+    width: 65%;
+    padding-right: 20px;
+    border-right: 2px solid #ccc;
+}
+
+.right-column {
+    width: 35%;
+    padding-left: 20px;
+}
+
+/* Header */
+header {
+    text-align: left;
+    border-bottom: 3px solid #333;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-size: 1.2em;
+    color: #777;
+    font-weight: normal;
+}
+
+/* Sections */
+section {
+    margin-bottom: 25px;
+}
+
+/* Outlined Button Style for Section Headers */
+/* Outlined Button Style for Section Headers */
+.section-button {
+    display: block;
+    width: 100%;
+    padding: 12px 0;
+    font-size: 14px;
+    font-weight: bold;
+    color: #555;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border: 1px solid #555;
+    background: transparent;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+.section-button:hover {
+    background: #555;
+    color: white;
+}
+
+
+/* Contact, Education, Certifications, Skills */
+.contact, .education, .certifications, .skills {
+    background: white;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+/* Job Section */
+.job h4 {
+    font-size: 1.1em;
+    margin: 0;
+    font-weight: bold;
+}
+
+.job p {
+    font-size: 0.95em;
+    margin-top: 5px;
+    color: #555;
+}
+
+/* Lists */
+ul {
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+ul li {
+    font-size: 0.95em;
+    margin-bottom: 5px;
+}
+
+/* Download Button */
+.download-button {
+    display: inline-block;
+    padding: 8px 15px;
+    font-size: 14px;
+    color: #555;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border: 1px solid #555;
+    background: transparent;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.download-button:hover {
+    background: #555;
+    color: white;
+}
